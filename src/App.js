@@ -22,7 +22,7 @@ function App() {
         <input type="password" id="password" placeholder="Password"value={password} onChange={changeHandler}/><br/>
         <input type="password" id="confirm_password" placeholder="Confirm Password"value={confirmpassword} onChange={changeHandler}/><br/>
         
-        <p id="error"></p>
+        
         <button id="submit">Signup</button>
     </div>
     
